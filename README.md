@@ -1,3 +1,20 @@
+<!-- fork-only:squish START — re-apply this block after upstream syncs -->
+> ## 🦑 This fork: Hermes × Squish, pre-wired
+>
+> [**Squish**](https://getsquish.app) gives this agent *eyes for video*: a local clip becomes
+> **timestamped contact sheets** the model reads natively — video → sheet → vision → answer
+> with timecodes (e.g. "at 0:07 the press comes down").
+>
+> **Setup (one command):** `./setup-squish.sh`
+> - installs the `squish-video` skill (always), and
+> - wires the local `squish` MCP server **if** a local Squish engine is present (Node ≥ 20 + ffmpeg).
+>
+> No local engine? The skill routes through the **hosted API** out of the box — mint a key at
+> [getsquish.app/api-keys](https://getsquish.app/api-keys); never-paid accounts get a **free
+> daily allowance** on the first request, no card needed. The local engine ships with the
+> `@getsquish` npm release. Agent-facing docs: [getsquish.app/llms.txt](https://getsquish.app/llms.txt).
+<!-- fork-only:squish END -->
+
 <p align="center">
   <img src="assets/banner.png" alt="Hermes Agent" width="100%">
 </p>
